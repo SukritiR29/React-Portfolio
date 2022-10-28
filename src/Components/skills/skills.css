@@ -1,0 +1,60 @@
+.skills_head{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+
+.skills_head h4{
+    color: var(--color-sec);
+}
+.skills__container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+}
+
+.skills__container > div{
+    color: rgb(141, 104, 63);
+}
+
+.skills__container h3{
+    padding-top: 1rem;
+    text-align: left;
+    margin-left: 10rem;
+    color: var(--color-sec);
+   
+}
+
+.skills__container article{
+    display: grid;
+    grid-template-columns: 3;
+    margin-top: 1rem;
+}
+
+.non-tech h3{
+   margin-top: -2rem;
+}
+
+.skills_content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0.5rem;
+    margin-left: 10rem;
+    padding-top: 0.5rem;
+    
+
+}
+
+  
+
+
+.skill_details > div h4{
+    position: relative;
+    bottom: 1.7rem;
+    margin-left: 4rem;
+    font-size: larger;
+}
+
+.skill_detail-icon{
+    display: flex;
+}

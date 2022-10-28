@@ -1,0 +1,47 @@
+
+.about__head h1{
+    padding-top: 7rem;
+    padding-left: 51rem;
+}
+
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.about__me{
+   
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: var(--color-primary);
+    display: grid;
+    place-items: center;
+
+}
+
+.about__me-img{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    position: relative;
+    aspect-ratio: 1/1;
+    transition: 0.5s;
+}
+
+.about__me-img:hover{
+    transform: rotate(0);
+}
+
+.about__content p{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: large;
+    color: rgb(141, 104, 63);
+}
+
+.about__content a{
+      position: relative;
+      left: 12rem;
+      top: 3rem;
+}

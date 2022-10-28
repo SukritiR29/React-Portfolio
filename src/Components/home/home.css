@@ -1,0 +1,131 @@
+.home{
+    height: 100vh;
+    padding-top: 9rem;
+    overflow: hidden;
+}
+
+.home__container{
+    text-align: left;
+    height: 100%;
+    position: relative;
+    top: 10rem;
+    padding-top: 0rem;
+}
+
+.home__container h2 {
+    color: var(--color-sec);
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.home__container p {
+    color: rgba(166, 131, 92, 1);
+    width: 30rem;
+    font-size: larger;
+}
+/*=========CTA=======*/
+.cta {
+    margin-top: 2rem;
+    padding-top: 5rem;
+}
+
+/*=========SOCIALS=======*/
+.home__socials {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    position: absolute;
+    left: 45rem;
+    padding-top: 5rem;
+    top: 14rem;
+}
+
+.me img{
+    position: relative;
+    top: -15rem;
+    height: 20rem;
+    left: 50rem;
+    
+}
+
+
+/*=========medium screen =======*/
+@media screen and (max-width: 1024px){
+    .home{
+        height: 100vh;
+    }
+    .home__container{
+        top: 3rem;
+        text-align: center;
+    }
+    .home__container p{
+        width: 20rem;
+        text-align: center;
+        left: 13rem;
+      
+    }
+    .me img{
+        align-items: center;
+        left: 15rem;
+        top: 8rem;
+    }
+
+}
+
+/*=========small screen =======*/
+@media screen and (max-width: 500px){
+    .home{
+        height: 100vh;
+        width: 600px;
+    }
+    .home__container{
+        top: 10rem;
+        text-align: center;
+    }
+    .home__container h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .home__container h1{
+        font-size: 2rem;
+        text-align: center;
+    
+    }
+    .home__container p{
+       font-size: 0.9rem;
+       width: 18rem;
+       text-align: center;
+       margin-left: 2.5rem;
+       padding-top: 1rem;
+       
+    }
+
+    .cta{
+        font-size: 0.8rem;
+        text-align: center; 
+        margin-top: -2rem;     
+    }
+
+    .me img{
+        align-items: center;
+        left: 2.5rem;
+        height: 15rem;
+        top: 19.5rem;
+        margin-left: 2rem;
+        display: flex;
+    }
+
+    .home__socials{
+        align-items: center;
+        left: 4rem;
+        top: 16rem;
+        display: flex;
+        position: absolute;
+        margin-right: 2rem;
+        right: 1rem;
+
+
+    }
+
+
+}
